@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Logger logger = LogManager.getLogger(Main.class);
+        static final Logger logger = LogManager.getLogger(Main.class);
 
         Point[] pointArray = new Point[5];
 
